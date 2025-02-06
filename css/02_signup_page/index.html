@@ -18,8 +18,40 @@
 
         .card {
             background-color: bisque;
+            border-radius: 6px;
+            text-align: center;
+            width: 400px;
+            padding: 30px;
+            height: 310px;
 
         }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        h2 {
+            color: darkblue;
+            margin-bottom: 20px;
+        }
+
+        input {
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-radius: 2px;
+            padding: 8px;
+        }
+
+        button {
+            padding: 4px;
+        }
+        
+        button:hover {
+            background-color: azure;
+        }
+
     </style>
 </head>
 <body>
@@ -27,8 +59,10 @@
         <h2>Signup</h2>
         <form>
             <input type="email" name="email" placeholder="email">
-            <input type="text" name="First name" placeholder="First name">
-            <input type="text" name="Middle name" placeholder="Middle name">
+            <div class="nomen">
+                <input type="text" name="First name" id="1" placeholder="First name">
+                <input type="text" name="Middle name" id="2" placeholder="Middle name">
+            </div>
             <input type="text" name="Last name" placeholder="Last name">
             <input type="password" name="password" placeholder="password">
 
