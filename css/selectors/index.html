@@ -3,7 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Selector Example</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            background-color: beige;
+        }
+
+        #header {
+            background-color: chartreuse;
+        }
+
+        input[type="text"] {
+            border: 2px solid black;
+        }
+
+        article p {
+            font-style: italic;
+            font-size: medium;
+            background-color: black;
+            color: aliceblue;
+            padding: 5px;
+        }
+
+
+    </style>
 </head>
 <body>
     <header id="header"> This is a header</header>
@@ -43,6 +77,9 @@
             This paragraph show the pseudo-class selector with a styled first line and first letter.
         </p>
         <h3>Heading 3</h3>
-        
+
+        <p>
+            The headings h1, h2, and h3 use the grouping selector for consistent font family.
+        </p>
 </body>
 </html>
