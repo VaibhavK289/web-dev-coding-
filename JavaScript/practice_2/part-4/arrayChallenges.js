@@ -45,11 +45,11 @@ of the array and store it in the variable named 'First tea' */
 // console.log(softCopyTeas);
 
 // Better method 
-let popularTeas = ["green tea", "oolong tea", "chai"];
-let softCopyTeas = popularTeas;
-popularTeas.pop();
-console.log(softCopyTeas);
-console.log(popularTeas);
+// let popularTeas = ["green tea", "oolong tea", "chai"];
+// let softCopyTeas = popularTeas;
+// popularTeas.pop();
+// console.log(softCopyTeas);
+// console.log(popularTeas);
 
 //Seventh problem 
 
@@ -67,11 +67,23 @@ console.log(popularTeas);
 
 //Eighth problem 
 
-let europeanCities = ["Paris", "Rome"];
-let asianCities = ["Tokyo", "Bangkok"];
+// let europeanCities = ["Paris", "Rome"];
+// let asianCities = ["Tokyo", "Bangkok"];
 
-let worldCities = europeanCities + "," + asianCities;
-let worldCities1 = [europeanCities , asianCities];
-let worldCities2 = []
-console.log(worldCities);   //It returns a string.
-console.log(worldCities1);
+// let worldCities = europeanCities + "," + asianCities;
+// let worldCities1 = [europeanCities , asianCities];
+// let worldCities2 = []
+// console.log(worldCities);   //It returns a string.
+// console.log(worldCities1);
+
+// ninth problem 
+
+// let teaMenu = ["masala chai", "oolong chai", "green tea", "earl tea"];
+// let menuLength = teaMenu.length;
+// console.log(menuLength);
+
+//tenth problem
+
+let citiesBucketList = ["Kyoto", "London", "Cape Town", "Vancouver"];
+let isLondonInList = citiesBucketList.includes("London");
+console.log(isLondonInList);
