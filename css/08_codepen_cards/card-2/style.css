@@ -1,7 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vh;
+    position: relative;
+    height: 100vh;
+    left: 40%;
+    top: 50%;
 }
 
 .container {
@@ -13,4 +16,28 @@ body {
     width: 300px;
     border: 1px solid black;
     border-radius: 5px;
+    background: linear-gradient(135deg, #8a2be2, #4169e1);
+    position: absolute;
+}
+.container img {
+    border-radius: 50%;
+    transition: ease-in-out 0.5s;
+}
+.container img:hover {
+    transform: scale(1.07);
+}
+.container ul {
+    list-style: none;
+}
+
+.container button {
+    border-radius: 5px;
+    color: aquamarine;
+    background-color: black;
+    transition: ease-in-out 0.5s;
+}
+
+.container button:hover {
+    transform: scale(1.10);
+    background-color: darkslategray;
 }
